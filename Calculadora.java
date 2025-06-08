@@ -58,6 +58,7 @@ public class Calculadora {
             in.next();
         }
 
+        in.close();
         }
     }
 
