@@ -16,6 +16,8 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-          
+      - name: Mostrar estructura del proyecto
+        run: ls -R
+
       - name: Compilar codigo con Maven(Java)
         run: mvn compile
