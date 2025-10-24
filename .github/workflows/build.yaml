@@ -1,0 +1,16 @@
+name: Compilación automática
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/cehckout@v4
+
+      - name: Compilar codigo con Maven(Java)
+        run: mvn compile
+          
