@@ -20,4 +20,4 @@ jobs:
         run: ls -R
 
       - name: Compilar codigo (Java)
-        run: javac calculadora
+        run: javac Calculadora
