@@ -19,5 +19,5 @@ jobs:
       - name: Mostrar estructura del proyecto
         run: ls -R
 
-      - name: Compilar codigo con Maven(Java)
-        run: mvn compile
+      - name: Compilar codigo (Java)
+        run: javac calculadora
